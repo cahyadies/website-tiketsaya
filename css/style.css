@@ -13,4 +13,51 @@ input {
   height: 40px;
   padding-left: 12px;
   border-radius: 8px;
+  margin-right: 12px;
+  animation-name: fromLefttoRight;
+  animation-delay: 200ms;
+  animation-duration: 5s;
+}
+
+img {
+  animation-name: fadeInShow;
+  animation-delay: 300ms;
+  animation-duration: 5s;
+}
+/* . berarti menggunakan class */
+.main-page {
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+  background: #7f888f59;
+}
+
+.input-password {
+  animation-name: fromLefttoRight;
+  animation-delay: 200ms;
+  animation-duration: 5s;
+}
+
+/* # berarti menggunakan id */
+
+/* Untuk membuat animasi @keyframe <namaAnimasi> */
+@keyframes fadeInShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fromLefttoRight {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
