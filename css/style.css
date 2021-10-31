@@ -1,0 +1,16 @@
+body {
+  background: #f6f7fb;
+}
+
+h2 {
+  color: #21272c;
+}
+
+/* Padding adalah jarak di dalam komponen */
+/* Margin adalah jarak di luar komponen */
+input {
+  width: 240px;
+  height: 40px;
+  padding-left: 12px;
+  border-radius: 8px;
+}
